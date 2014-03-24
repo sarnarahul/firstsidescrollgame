@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16552B2018E0FD2200BCBF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16552B1F18E0FD2200BCBF03 /* Foundation.framework */; };
+		16552B2218E0FD2200BCBF03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16552B2118E0FD2200BCBF03 /* CoreGraphics.framework */; };
+		16552B2418E0FD2200BCBF03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16552B2318E0FD2200BCBF03 /* UIKit.framework */; };
+		16552B2A18E0FD2200BCBF03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16552B2818E0FD2200BCBF03 /* InfoPlist.strings */; };
+		16552B2C18E0FD2200BCBF03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16552B2B18E0FD2200BCBF03 /* main.m */; };
+		16552B3018E0FD2200BCBF03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16552B2F18E0FD2200BCBF03 /* AppDelegate.m */; };
+		16552B3318E0FD2200BCBF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16552B3118E0FD2200BCBF03 /* Main.storyboard */; };
+		16552B3618E0FD2200BCBF03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16552B3518E0FD2200BCBF03 /* ViewController.m */; };
+		16552B3818E0FD2200BCBF03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16552B3718E0FD2200BCBF03 /* Images.xcassets */; };
+		16552B3F18E0FD2200BCBF03 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16552B3E18E0FD2200BCBF03 /* XCTest.framework */; };
+		16552B4018E0FD2200BCBF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16552B1F18E0FD2200BCBF03 /* Foundation.framework */; };
+		16552B4118E0FD2200BCBF03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16552B2318E0FD2200BCBF03 /* UIKit.framework */; };
+		16552B4918E0FD2200BCBF03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16552B4718E0FD2200BCBF03 /* InfoPlist.strings */; };
+		16552B4B18E0FD2200BCBF03 /* Rsarna_gameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16552B4A18E0FD2200BCBF03 /* Rsarna_gameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16552B4218E0FD2200BCBF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16552B1418E0FD2200BCBF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16552B1B18E0FD2200BCBF03;
+			remoteInfo = Rsarna_game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16552B1C18E0FD2200BCBF03 /* Rsarna_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rsarna_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16552B1F18E0FD2200BCBF03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16552B2118E0FD2200BCBF03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16552B2318E0FD2200BCBF03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16552B2718E0FD2200BCBF03 /* Rsarna_game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rsarna_game-Info.plist"; sourceTree = "<group>"; };
+		16552B2918E0FD2200BCBF03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16552B2B18E0FD2200BCBF03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16552B2D18E0FD2200BCBF03 /* Rsarna_game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rsarna_game-Prefix.pch"; sourceTree = "<group>"; };
+		16552B2E18E0FD2200BCBF03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16552B2F18E0FD2200BCBF03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16552B3218E0FD2200BCBF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16552B3418E0FD2200BCBF03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16552B3518E0FD2200BCBF03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16552B3718E0FD2200BCBF03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16552B3D18E0FD2200BCBF03 /* Rsarna_gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rsarna_gameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16552B3E18E0FD2200BCBF03 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		16552B4618E0FD2200BCBF03 /* Rsarna_gameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rsarna_gameTests-Info.plist"; sourceTree = "<group>"; };
+		16552B4818E0FD2200BCBF03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16552B4A18E0FD2200BCBF03 /* Rsarna_gameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rsarna_gameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16552B1918E0FD2200BCBF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16552B2218E0FD2200BCBF03 /* CoreGraphics.framework in Frameworks */,
+				16552B2418E0FD2200BCBF03 /* UIKit.framework in Frameworks */,
+				16552B2018E0FD2200BCBF03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16552B3A18E0FD2200BCBF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16552B3F18E0FD2200BCBF03 /* XCTest.framework in Frameworks */,
+				16552B4118E0FD2200BCBF03 /* UIKit.framework in Frameworks */,
+				16552B4018E0FD2200BCBF03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16552B1318E0FD2200BCBF03 = {
+			isa = PBXGroup;
+			children = (
+				16552B2518E0FD2200BCBF03 /* Rsarna_game */,
+				16552B4418E0FD2200BCBF03 /* Rsarna_gameTests */,
+				16552B1E18E0FD2200BCBF03 /* Frameworks */,
+				16552B1D18E0FD2200BCBF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16552B1D18E0FD2200BCBF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16552B1C18E0FD2200BCBF03 /* Rsarna_game.app */,
+				16552B3D18E0FD2200BCBF03 /* Rsarna_gameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16552B1E18E0FD2200BCBF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16552B1F18E0FD2200BCBF03 /* Foundation.framework */,
+				16552B2118E0FD2200BCBF03 /* CoreGraphics.framework */,
+				16552B2318E0FD2200BCBF03 /* UIKit.framework */,
+				16552B3E18E0FD2200BCBF03 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16552B2518E0FD2200BCBF03 /* Rsarna_game */ = {
+			isa = PBXGroup;
+			children = (
+				16552B2E18E0FD2200BCBF03 /* AppDelegate.h */,
+				16552B2F18E0FD2200BCBF03 /* AppDelegate.m */,
+				16552B3118E0FD2200BCBF03 /* Main.storyboard */,
+				16552B3418E0FD2200BCBF03 /* ViewController.h */,
+				16552B3518E0FD2200BCBF03 /* ViewController.m */,
+				16552B3718E0FD2200BCBF03 /* Images.xcassets */,
+				16552B2618E0FD2200BCBF03 /* Supporting Files */,
+			);
+			path = Rsarna_game;
+			sourceTree = "<group>";
+		};
+		16552B2618E0FD2200BCBF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16552B2718E0FD2200BCBF03 /* Rsarna_game-Info.plist */,
+				16552B2818E0FD2200BCBF03 /* InfoPlist.strings */,
+				16552B2B18E0FD2200BCBF03 /* main.m */,
+				16552B2D18E0FD2200BCBF03 /* Rsarna_game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16552B4418E0FD2200BCBF03 /* Rsarna_gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				16552B4A18E0FD2200BCBF03 /* Rsarna_gameTests.m */,
+				16552B4518E0FD2200BCBF03 /* Supporting Files */,
+			);
+			path = Rsarna_gameTests;
+			sourceTree = "<group>";
+		};
+		16552B4518E0FD2200BCBF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16552B4618E0FD2200BCBF03 /* Rsarna_gameTests-Info.plist */,
+				16552B4718E0FD2200BCBF03 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16552B1B18E0FD2200BCBF03 /* Rsarna_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16552B4E18E0FD2200BCBF03 /* Build configuration list for PBXNativeTarget "Rsarna_game" */;
+			buildPhases = (
+				16552B1818E0FD2200BCBF03 /* Sources */,
+				16552B1918E0FD2200BCBF03 /* Frameworks */,
+				16552B1A18E0FD2200BCBF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rsarna_game;
+			productName = Rsarna_game;
+			productReference = 16552B1C18E0FD2200BCBF03 /* Rsarna_game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16552B3C18E0FD2200BCBF03 /* Rsarna_gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16552B5118E0FD2200BCBF03 /* Build configuration list for PBXNativeTarget "Rsarna_gameTests" */;
+			buildPhases = (
+				16552B3918E0FD2200BCBF03 /* Sources */,
+				16552B3A18E0FD2200BCBF03 /* Frameworks */,
+				16552B3B18E0FD2200BCBF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16552B4318E0FD2200BCBF03 /* PBXTargetDependency */,
+			);
+			name = Rsarna_gameTests;
+			productName = Rsarna_gameTests;
+			productReference = 16552B3D18E0FD2200BCBF03 /* Rsarna_gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16552B1418E0FD2200BCBF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rahul Sarna";
+				TargetAttributes = {
+					16552B3C18E0FD2200BCBF03 = {
+						TestTargetID = 16552B1B18E0FD2200BCBF03;
+					};
+				};
+			};
+			buildConfigurationList = 16552B1718E0FD2200BCBF03 /* Build configuration list for PBXProject "Rsarna_game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16552B1318E0FD2200BCBF03;
+			productRefGroup = 16552B1D18E0FD2200BCBF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16552B1B18E0FD2200BCBF03 /* Rsarna_game */,
+				16552B3C18E0FD2200BCBF03 /* Rsarna_gameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16552B1A18E0FD2200BCBF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16552B3818E0FD2200BCBF03 /* Images.xcassets in Resources */,
+				16552B2A18E0FD2200BCBF03 /* InfoPlist.strings in Resources */,
+				16552B3318E0FD2200BCBF03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16552B3B18E0FD2200BCBF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16552B4918E0FD2200BCBF03 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16552B1818E0FD2200BCBF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16552B3618E0FD2200BCBF03 /* ViewController.m in Sources */,
+				16552B3018E0FD2200BCBF03 /* AppDelegate.m in Sources */,
+				16552B2C18E0FD2200BCBF03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16552B3918E0FD2200BCBF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16552B4B18E0FD2200BCBF03 /* Rsarna_gameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16552B4318E0FD2200BCBF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16552B1B18E0FD2200BCBF03 /* Rsarna_game */;
+			targetProxy = 16552B4218E0FD2200BCBF03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16552B2818E0FD2200BCBF03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16552B2918E0FD2200BCBF03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16552B3118E0FD2200BCBF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16552B3218E0FD2200BCBF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16552B4718E0FD2200BCBF03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16552B4818E0FD2200BCBF03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16552B4C18E0FD2200BCBF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16552B4D18E0FD2200BCBF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16552B4F18E0FD2200BCBF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rsarna_game/Rsarna_game-Prefix.pch";
+				INFOPLIST_FILE = "Rsarna_game/Rsarna_game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16552B5018E0FD2200BCBF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rsarna_game/Rsarna_game-Prefix.pch";
+				INFOPLIST_FILE = "Rsarna_game/Rsarna_game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16552B5218E0FD2200BCBF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rsarna_game.app/Rsarna_game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rsarna_game/Rsarna_game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rsarna_gameTests/Rsarna_gameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		16552B5318E0FD2200BCBF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rsarna_game.app/Rsarna_game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rsarna_game/Rsarna_game-Prefix.pch";
+				INFOPLIST_FILE = "Rsarna_gameTests/Rsarna_gameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16552B1718E0FD2200BCBF03 /* Build configuration list for PBXProject "Rsarna_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16552B4C18E0FD2200BCBF03 /* Debug */,
+				16552B4D18E0FD2200BCBF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16552B4E18E0FD2200BCBF03 /* Build configuration list for PBXNativeTarget "Rsarna_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16552B4F18E0FD2200BCBF03 /* Debug */,
+				16552B5018E0FD2200BCBF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16552B5118E0FD2200BCBF03 /* Build configuration list for PBXNativeTarget "Rsarna_gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16552B5218E0FD2200BCBF03 /* Debug */,
+				16552B5318E0FD2200BCBF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16552B1418E0FD2200BCBF03 /* Project object */;
+}
