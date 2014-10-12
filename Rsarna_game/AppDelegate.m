@@ -10,6 +10,8 @@
 
 @implementation AppDelegate
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
@@ -42,5 +44,14 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
++(AppDelegate*)appDelegate {
+    return [UIApplication sharedApplication].delegate;
+}
+
++(MenuViewController*)menuViewController {
+    return (MenuViewController*)[UIApplication sharedApplication].keyWindow.rootViewController;
+}
+
 
 @end

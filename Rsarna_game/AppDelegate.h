@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MenuViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
++(AppDelegate*)appDelegate;
++(MenuViewController*)menuViewController;
+
 
 @end

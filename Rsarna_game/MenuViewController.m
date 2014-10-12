@@ -6,13 +6,14 @@
 //  Copyright (c) 2014 Rahul Sarna. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MenuViewController.h"
+#import "GameViewController.h"
 
-@interface ViewController ()
+@interface MenuViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MenuViewController
 
 - (void)viewDidLoad
 {
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    GameViewController *gameViewController = segue.destinationViewController;
+    gameViewController.menuViewController = self;
 }
 
 @end
